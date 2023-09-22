@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta name = "description" content = "Deret Fibonacci, Volume Bangun Ruang">
+        <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+        <title>Deret Fibonacci</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="responsive.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" />
+    </head>
+    <body>
+        <header>
+            <div class="nav">
+                <div class="nama"><p>KADEK ARDY WIRAKUSUMA</p></div>
+                <div class="nim"><p>2215101012</p></div>
+            </div>
+        </header>
+        <div class="container">
+            <div class="form-fibonnaci">
+                <form action="" class = "input-form">
+                    <div class="form-img">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                        <path d="M13 24h6c2.762 0 5-2.239 5-5v-6h-11v11zm3-7h5v1h-5v-1zm0 2h5v1h-5v-1zm-16 0c0 2.761 2.239 5 5 5h6v-11h-11v6zm3-1h2v-2h1v2h2v1h-2v2h-1v-2h-2v-1zm16-18h-6v11h11v-6c0-2.761-2.238-5-5-5zm-.5 3c.276 0 .5.224.5.5s-.224.5-.5.5-.5-.224-.5-.5.224-.5.5-.5zm0 5c-.276 0-.5-.224-.5-.5s.224-.5.5-.5.5.224.5.5-.224.5-.5.5zm2.5-2h-5v-1h5v1zm-21-1v6h11v-11h-6c-2.761 0-5 2.239-5 5zm6.914-1.622l.708.708-1.415 1.414 1.414 1.414-.707.707-1.414-1.414-1.414 1.414-.708-.707 1.414-1.414-1.414-1.414.707-.707 1.415 1.414 1.414-1.415z"/></svg>
+                        <h3>DERET FIBONACCI</h3>
+                    </div>
+                    <hr>
+                    <div>
+                        <label for="fibonacci-input"><h4>MASUKAN BILANGAN</h4></label>
+                        <input type="number" id="fibonacci-input" name = "angka" class = "input">
+                    </div>
+                    <small style = "color : red; font-size : 1rem;" id = "error_mes"></small>
+                    <div>
+                        <h4>HASIL</h4>
+                    </div>
+                    <div class="fibonnaci-area">
+                        <p><span id="fibonacci-result">....</span></p>
+                    </div>
+                    <button id = "calculateFibonacci" class = "button">HITUNG</button>
+                </form>
+            </div>
+            <div class="form-bangunRuang">
+                <form action="" class = "input-form">
+                    <div class="form-img">
+                        <svg clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path d="m21 7.702-8.5 4.62v9.678c1.567-.865 6.379-3.517 7.977-4.399.323-.177.523-.519.523-.891zm-9.5 4.619-8.5-4.722v9.006c0 .37.197.708.514.887 1.59.898 6.416 3.623 7.986 4.508zm-8.079-5.629 8.579 4.763 8.672-4.713s-6.631-3.738-8.186-4.614c-.151-.085-.319-.128-.486-.128-.168 0-.335.043-.486.128-1.555.876-8.093 4.564-8.093 4.564z" fill-rule="nonzero"/></svg>
+                        <h3>VOLUME BANGUN RUANG</h3>
+                    </div>
+                    <hr>
+                    <label for="volume"><h4>PILIH BANGUN RUANG</h4></label>
+                    <select id="volume">
+                        <option value="kubus">KUBUS</option>
+                        <option value="balok">BALOK</option>
+                        <option value="tabung">TABUNG</option>
+                        <option value="kerucut">KERUCUT</option>
+                        <option value="bola">BOLA</option>
+                        <option value="prisma">PRISMA</option>
+                        <option value="limas">LIMAS</option>
+                    </select>
+                    <div id="items"></div>
+                    <h4>HASIL</h4>
+                    <div class="volume-area" style="margin-bottom : 2rem;">
+                        <p><span id = "hasilVolume"></span>
+                        </span></p>
+                    </div>
+                    <small style = "color : red; font-size : 1rem;" id = "error_mes"></small>
+                    <button  id = "hitungBR"class = "button">HITUNG</button>
+                </form>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>

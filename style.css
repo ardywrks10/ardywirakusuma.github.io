@@ -1,0 +1,185 @@
+body {
+    background-size : 100%;
+    background-image: url(img/5137894.jpg);
+    color : #606468;
+    font : 87.5%/1.5em 'Open Sans', sans-serif;
+    align-items: center;
+}
+
+input {
+    border : none;
+    font-family: 'Open Sans', arial, sans-serif;
+    font-size: 12px;
+    line-height: 1.5em;
+}
+
+p {
+    line-height:1.5em;
+}
+
+after { clear : both }
+
+/* Form Display */
+
+form {
+    margin: auto;
+    padding: 30px;
+    border-radius : 10px;
+    background : #d0dae1;
+}
+
+.container h3, h4 {
+    color : #3c3c3c;
+    font-weight : bolder;
+    font-size: 1rem;
+}
+
+header {
+    background: none;
+    color: white;
+    margin-top: 0;
+    padding: 20px 0;
+    margin : 2rem;
+}
+
+.nav ul li {
+    display: inline-block;
+    margin-right: 3rem;
+    list-style: none;
+    color: white;
+}
+
+.nav {
+    margin : auto;
+    display: flex;
+    gap : 3rem;
+    padding: 0 4rem;
+}
+
+.nav h4 {
+    font-size : 18px;
+    font-weight: bolder;
+}
+.nav p {
+    font-size : 20px;
+    font-weight: bolder;
+}
+
+.container {
+    margin : auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.form-bangunRuang {
+    margin: auto;
+    width : 700px;
+    margin-bottom : 2rem;
+    min-height : 100%;
+}
+
+.form-fibonnaci {
+    margin: auto;
+    width : 700px;
+    margin-bottom : 2rem;
+    min-height: 100%;
+}
+
+.form-img svg {
+    width : 50px;
+    height : 50px;
+}
+
+.form-img {
+    text-align : center;
+    margin-bottom : 20px;
+    margin-top : 1rem;
+}
+
+.input-form input {
+    background-color : #ffffff;
+    color: #3c3c3c;
+    font-size: 17px;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 40px;
+    padding : 10px;
+    border-radius : 5px;
+    box-sizing: border-box;
+}
+
+.form-fibonacci .input-form p {
+    color : #3c3c3c;
+}
+
+.form-bangunRuang .input-form p {
+    color : #3c3c3c;
+}
+
+.button {
+    background : #101434;
+    border : 0;
+    width : 100%;
+    height : 2.5rem;
+    border-radius : 5px;
+    color : white;
+    cursor : pointer;
+    margin-top : 10px;
+    transition: 0.1s ease-in-out;
+    font-weight: bolder;
+    margin-bottom : 2rem;
+}
+
+.button:hover {
+    background : gray;
+    color : white;
+}
+
+.input-form p a {
+    text-decoration: none;
+    color : #3c3c3c;
+}
+
+.input-form p a:hover {
+    color : black;
+}
+
+.fibonnaci-area p{
+    background-color : #ffffff;
+    color :#8d8b8b;
+    margin-bottom : 2rem;
+    width : 100%;
+    border-radius : 5px;
+    padding : 15px;
+    box-sizing: border-box;
+    text-align : center;
+    font-size : 1rem;
+    font-weight : bolder;
+}
+
+/*Bangun Ruang*/
+
+.volume-area p{
+    background-color : #ffffff;
+    color :#8d8b8b;
+    margin-bottom : 10px;
+    width : 100%;
+    border-radius : 5px;
+    height : 40px;
+    padding : 10px;
+    box-sizing: border-box;
+    text-align : center;
+    font-size : 1rem;
+    font-weight : bolder;
+}
+
+select {
+    margin-bottom : 1rem;
+    width : 100%;
+    height : 40px;
+    border-radius : 5px;
+    padding : 8px;
+    font-weight : bolder
+}
+

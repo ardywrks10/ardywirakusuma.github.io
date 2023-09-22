@@ -1,0 +1,141 @@
+@media (max-width: 1388px) {
+    body {
+      background-position: center;
+      margin-top: 50px; 
+    }
+  
+    .container {
+      grid-template-columns: 1fr;
+      gap: 1rem; 
+      justify-content: center; 
+    }
+  
+    .form-bangunRuang, .form-fibonnaci {
+      width: 80%;
+      margin-bottom: 2rem; 
+    }
+  
+    .form-img svg {
+      width: 40px; 
+      height: 40px; 
+    }
+  
+    h3, h4 {
+      font-size: 1.2rem; 
+    }
+  
+    .input-form input {
+      font-size: 16px; 
+      padding: 8px; 
+    }
+  
+    .button {
+      height: 2rem; 
+      margin-top: 5px; 
+    }
+  
+}
+
+@media (max-width: 768px) {
+    body {
+      background-size: cover;
+      background-position: center;
+      margin-top: 50px;
+    }
+
+    header .nav p {
+      font-size: 18px;
+  }
+  
+    .container {
+      grid-template-columns: 1fr;
+      gap: 0.5rem; 
+    }
+  
+    .form-bangunRuang, .form-fibonnaci {
+      width: 80%;
+      margin-bottom: 1rem; 
+    }
+  
+    .form-img svg {
+      width: 40px; 
+      height: 40px; 
+    }
+  
+    h3, h4 {
+      font-size: 1.2rem; 
+    }
+  
+    .input-form input {
+      font-size: 16px; 
+      padding: 8px; 
+    }
+  
+    .button {
+      height: 2rem; 
+      margin-top: 5px; 
+    }
+  }
+
+@media (max-width: 480px) {
+    body {
+      background-size: cover;
+      background-position: center;
+      margin-top: 50px; 
+    }
+
+    header {
+        margin-bottom : 1rem;
+    }
+
+    header .nav .identitas{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    header .nav p {
+        font-size: 14px;
+    }
+  
+    .container {
+      grid-template-columns: 1fr;
+      gap: 0.5rem; 
+    }
+  
+    .form-bangunRuang, .form-fibonnaci {
+      width: 90%;
+      margin-bottom: 1rem; 
+    }
+  
+    .form-img svg {
+      width: 30px; 
+      height: 30px; 
+    }
+  
+    h3, h4 {
+      font-size: 0.9rem; 
+    }
+  
+    .input-form input {
+      font-size: 16px; 
+      padding: 8px; 
+      height : 30px
+    }
+
+    .volume-area p {
+        font-size: 13px; 
+        padding: 8px; 
+        height : 30px
+    }
+
+    .fibonnaci-area p {
+        font-size: 13px; 
+        padding: 8px; 
+    }
+  
+    .button {
+      height: 2rem; 
+      margin-top: 5px; 
+    }
+  
+  }
