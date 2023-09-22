@@ -51,8 +51,7 @@ header {
 
 .nav {
     margin : auto;
-    display: flex;
-    gap : 3rem;
+    text-align : center;
     padding: 0 4rem;
 }
 
